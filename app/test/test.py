@@ -1,5 +1,6 @@
 import unittest
-from num_double import num_double
+
+from module import num_double
 
 class Test_num_double(unittest.TestCase):
     def test_num_double(self):
@@ -8,5 +9,5 @@ class Test_num_double(unittest.TestCase):
         actual = num_double(num)
         self.assertEqual(expected, actual)
 
-if __name__ == "__main__
+if __name__ == '__main__':
     unittest.main()
