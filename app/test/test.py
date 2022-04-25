@@ -8,5 +8,5 @@ class Test_num_double(unittest.TestCase):
         actual = num_double(num)
         self.assertEqual(expected, actual)
 
-if __name__ == "__main__":
+if __name__ == "__main__
     unittest.main()
